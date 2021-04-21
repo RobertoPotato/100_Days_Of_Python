@@ -6,6 +6,7 @@ UP = 90
 DOWN = 270
 LEFT = 180
 RIGHT = 0
+BODY_COLOR = "teal"
 
 
 class Snake:
@@ -16,11 +17,20 @@ class Snake:
 
     def create_snake(self):
         for position in STARTING_POSITIONS:
-            new_segment = Turtle("square")
-            new_segment.color("white")
-            new_segment.penup()
-            new_segment.goto(position)
-            self.segments.append(new_segment)
+            if STARTING_POSITIONS.index(position) == 0:
+                self.add_segment(position=position, color="red")
+            self.add_segment(position=position, color=BODY_COLOR)
+
+    def add_segment(self, position, color):
+        new_segment = Turtle("square")
+        new_segment.color(color)
+        new_segment.penup()
+        new_segment.goto(position)
+        self.segments.append(new_segment)
+
+    # Extend the length of the snake, adds a new segment
+    def extend(self):
+        self.add_segment(position=self.segments[-1].position(), color=BODY_COLOR )
 
     def move(self):
         for seg_num in range(len(self.segments) - 1, 0, -1):

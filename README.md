@@ -15,4 +15,8 @@ having it use its defined methods to implement certain behavior like
 movement
 
 ## Day 21 - The old snake game
-Finishing up the game. Learning more OOP concepts like Inheritance
+- Finishing up the game. Learning more OOP concepts like Inheritance
+- Added logic for interacting with food, the screen's edge and own tail
+- Added logic for growing after feeding
+- Game over when colliding with body or screen's edge (wall)
+- Learnt about array slicing
