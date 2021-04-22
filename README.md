@@ -20,3 +20,8 @@ movement
 - Added logic for growing after feeding
 - Game over when colliding with body or screen's edge (wall)
 - Learnt about array slicing
+
+## Day 22 - Pong
+- Another entry for old games, Pong
+- Built on top of concepts learnt yesterday, OOP and Inheritance.
+- Two players can battle it out in Pong and see who gets the most score
