@@ -37,3 +37,10 @@ while game_is_on:
     if player.ycor() > 280:
         player.reposition()
         print("Finished")
+
+# HAVE different tracks and on each track, generate cars on different x-axis positions.
+# Tracks will be created along the y direction
+# Cars will be generated randomly on the tracks
+# Once a car reaches the end of the screen, it gets repositioned back to the begining
+# Also have a variable that controls the speed of the animation each time the player advances
+# A level
