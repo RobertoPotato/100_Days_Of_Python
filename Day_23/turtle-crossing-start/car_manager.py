@@ -10,6 +10,7 @@ INITIAL_POSITION = (300, -280)
 class CarManager(Turtle):
     def __init__(self, y_cord, x_cord):
         super().__init__()
+        self.speed = STARTING_MOVE_DISTANCE
         self.y_cord = y_cord
         self.x_cord = x_cord
         self.initial_x = x_cord
@@ -22,5 +23,8 @@ class CarManager(Turtle):
     def move(self):
         if self.xcor() < -320:
             self.goto(320, self.y_cord)
-        new_x = self.xcor() - STARTING_MOVE_DISTANCE
+        new_x = self.xcor() - self.speed
         self.goto(new_x, self.y_cord)
+
+    def level_up(self):
+        self.speed += MOVE_INCREMENT

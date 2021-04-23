@@ -27,3 +27,15 @@ movement
 - Two players can battle it out in Pong and see who gets the most score
 
 ## Day 23 - Turtle Crossing
+- This was challenging. Just thinking about it. I realize my solution was a bit
+    different from the final one in the course. It works though
+  
+- I Opted to reset the cars back to a predefined starting position once they reached the
+end of the screen, and generate a given number of cars for the game.
+  
+- The cars are also generated on specific "tracks" so that the player can have
+  a pause if the game gets challenging
+- Further improvements can include a screen where a player chooses their preferred difficulty
+and this triggers generation of more or fewer cars depending on the selection
+  
+- I furthered my skills in OOP, especially where class inheritance is concerned. 

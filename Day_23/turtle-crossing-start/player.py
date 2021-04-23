@@ -16,16 +16,13 @@ class Player(Turtle):
         self.setheading(90)
 
     def move(self):
-        self.color("black")
         self.goto(0, self.ycor() + MOVE_DISTANCE)
-        print("Moving")
 
     def is_at_finish(self):
         if self.ycor() > FINISH_LINE_Y:
             return True
         else:
             return False
-
 
     def reposition(self):
         self.goto(INITIAL_POSITION)
