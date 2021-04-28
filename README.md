@@ -38,4 +38,14 @@ end of the screen, and generate a given number of cars for the game.
 - Further improvements can include a screen where a player chooses their preferred difficulty
 and this triggers generation of more or fewer cars depending on the selection
   
-- I furthered my skills in OOP, especially where class inheritance is concerned. 
+- I furthered my skills in OOP, especially where class inheritance is concerned.
+## Day 24 - Local File operations
+- Learnt to: Open, Read and Write to local files using Relative and absolute
+Links in Python
+  
+- Applied the concepts to save and persist high scores in the previously created snake game
+- Used the same skills to automate the creation of letters to be sent out as invitations
+in the 'Mail Merge' project
+  
+- Mail merge involves reading lines of names from a file, and editing a pre-made letter, replacing
+some text with the read name
