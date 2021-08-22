@@ -49,3 +49,9 @@ in the 'Mail Merge' project
   
 - Mail merge involves reading lines of names from a file, and editing a pre-made letter, replacing
 some text with the read name
+
+## Day 25 - Working with CSVs and Pandas
+- Learned how to read CSVs using pandas, and performing operations on the data. Also touched on Turtle
+graphics and other previously learned concepts like lists.
+- Learned how to create a new dataframe from lists, convert that to and save it as a CSV file in the computer
+- Completed the US states game, and it is running fine. 
