@@ -55,3 +55,12 @@ some text with the read name
 graphics and other previously learned concepts like lists.
 - Learned how to create a new dataframe from lists, convert that to and save it as a CSV file in the computer
 - Completed the US states game, and it is running fine. 
+
+## Day 26 - Dictionary and List comprehension
+- Learned about list comprehension and dictionary comprehension. These can help clean up 
+code as well as reduce its complexity while doing very useful tasks. 
+- Dictionary comprehension uses references for key and value, and also, the dictionary is iterated through
+using a method like: dict.items()
+- For looping through dataframes, pandas was used, and a CSV was imported and converted to a dataframe (df).
+the df was then looped through using index and row (we were looping through rows) and nstead of the .items() method,
+the iterrows() method was used. 
