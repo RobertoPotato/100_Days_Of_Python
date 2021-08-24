@@ -64,3 +64,10 @@ using a method like: dict.items()
 - For looping through dataframes, pandas was used, and a CSV was imported and converted to a dataframe (df).
 the df was then looped through using index and row (we were looping through rows) and nstead of the .items() method,
 the iterrows() method was used. 
+
+## Day 27 - *args, **kwargs and tkinter
+- Learned about how to have an unlimited number of positional (*args) and named (**kwargs) arguments in a function
+and how these can be referenced and even used along with other regular kinds of arguments. 
+- Also learned about the GUI tool, tkinter, and how to create basic widgets on a screen using various layouts and even
+how to add functionality. extras.py file contains some basic widgets - from the london app brewery
+course, for my future reference. 
