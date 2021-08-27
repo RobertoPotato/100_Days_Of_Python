@@ -71,3 +71,8 @@ and how these can be referenced and even used along with other regular kinds of 
 - Also learned about the GUI tool, tkinter, and how to create basic widgets on a screen using various layouts and even
 how to add functionality. extras.py file contains some basic widgets - from the london app brewery
 course, for my future reference. 
+
+## Day 28 - Intermediate Tkinter
+- Created a Pomodoro app using Tkinter
+- Learnt about the canvas widget
+- Learnt about dynamic typing in python
