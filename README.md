@@ -76,3 +76,7 @@ course, for my future reference.
 - Created a Pomodoro app using Tkinter
 - Learnt about the canvas widget
 - Learnt about dynamic typing in python
+
+## Day 29 - Password generator Project
+- Uses TKInter and various other topics including reading and writing files to text files (external)
+- PASS - If you know you know. On to day 30...
