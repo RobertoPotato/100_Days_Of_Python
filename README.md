@@ -80,3 +80,5 @@ course, for my future reference.
 ## Day 29 - Password generator Project
 - Uses TKInter and various other topics including reading and writing files to text files (external)
 - PASS - If you know, you know. On to day 30...
+
+## Day 30 - Updating the password generator
