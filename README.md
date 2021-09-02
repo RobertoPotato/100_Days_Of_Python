@@ -82,3 +82,4 @@ course, for my future reference.
 - PASS - If you know, you know. On to day 30...
 
 ## Day 30 - Updating the password generator
+- Learnt about error handling using try, except, else, finally keywords in Python.
